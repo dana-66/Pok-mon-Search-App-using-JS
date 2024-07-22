@@ -77,7 +77,7 @@ body {
     border: 0.02rem solid #201B22;
     padding: 10px;
 }
-img{
+.sprite-container{
     width: 400px;
     height: 400px;
 }

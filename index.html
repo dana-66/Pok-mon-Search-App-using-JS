@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>Pokémon Search App</title>
 </head>
+
 <body>
     <main>
         <div class="wrapper">
@@ -30,16 +32,20 @@
                         <tr>
                             <td>Attack:</td>
                             <td d="attack"></td>
-                        </tr><tr>
+                        </tr>
+                        <tr>
                             <td>Defense:</td>
                             <td d="defense"></td>
-                        </tr><tr>
+                        </tr>
+                        <tr>
                             <td>Sp. Attack:</td>
                             <td d="special-attack"></td>
-                        </tr><tr>
+                        </tr>
+                        <tr>
                             <td>Sp. Defense:</td>
                             <td d="special-defense"></td>
-                        </tr><tr>
+                        </tr>
+                        <tr>
                             <td>Speed:</td>
                             <td d="speed"></td>
                         </tr>
@@ -48,16 +54,22 @@
             </div>
 
             <div id="result">
-                <p id="pokemon-name"></p>
-                <p id="pokemon-id"></p>
-                <p id="weight"></p>
-                <p id="height"></p>
-                <img src="https://th.bing.com/th/id/OIP.ytIzQCGOFD-54gPCd9yl3QHaHa?w=167&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="" id="pokemone-img">
-                <p id="types"></p>
+                <div class="name-id">
+                    <span id="pokemon-name"></span>
+                    <span id="pokemon-id"></span>
+                </div>
+                <div class="size">
+                    <span id="weight"></span>
+                    <span id="height"></span>
+                </div>
+
+                <div class="sprite-container"></div>
+                <div id="types"></div>
             </div>
-            
+
         </div>
     </main>
     <script src="js/script.js"></script>
 </body>
+
 </html>
