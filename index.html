@@ -8,7 +8,55 @@
 </head>
 <body>
     <main>
+        <div class="wrapper">
+            <div class="pokemon-text">
+                <div class="search-bar">
+                    <p>Search for Pokémon Name or ID:</p>
+                    <div class="search">
+                        <input type="text" id="search-input" required>
+                        <button type="submit" id="search-button">Search</button>
+                    </div>
+                </div>
+                <div class="poke-result-info">
+                    <table id="info">
+                        <tr>
+                            <th>Base</th>
+                            <th>Status</th>
+                        </tr>
+                        <tr>
+                            <td>HP:</td>
+                            <td id="hp"></td>
+                        </tr>
+                        <tr>
+                            <td>Attack:</td>
+                            <td d="attack"></td>
+                        </tr><tr>
+                            <td>Defense:</td>
+                            <td d="defense"></td>
+                        </tr><tr>
+                            <td>Sp. Attack:</td>
+                            <td d="special-attack"></td>
+                        </tr><tr>
+                            <td>Sp. Defense:</td>
+                            <td d="special-defense"></td>
+                        </tr><tr>
+                            <td>Speed:</td>
+                            <td d="speed"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
 
+            <div id="result">
+                <p id="pokemon-name"></p>
+                <p id="pokemon-id"></p>
+                <p id="weight"></p>
+                <p id="height"></p>
+                <img src="https://th.bing.com/th/id/OIP.ytIzQCGOFD-54gPCd9yl3QHaHa?w=167&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="" id="pokemone-img">
+                <p id="types"></p>
+            </div>
+            
+        </div>
     </main>
     <script src="js/script.js"></script>
 </body>

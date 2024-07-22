@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #4f076c;
+}
+
+body {
+    background: #201B22;
+    text-align: center;
+}
+
+.wrapper {
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFDDE2;
+    padding: 30px;
+    margin: 50px auto;
+}
+
+.wrapper .pokemon-text {
+    margin-top: 20px;
+    margin-right: 50px;
+    padding: 20px;
+}
+
+.wrapper .pokemon-text .search-bar p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.wrapper .pokemon-text .search-bar .search {
+    display: flex;
+    align-items: flex-end;
+}
+
+.wrapper .pokemon-text .search-bar .search input[type="text"] {
+    margin-top: 10px;
+    padding: 9px 10px;
+    width: 250px;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 0.02rem solid #4f076c;
+    background: #FFEBF5;
+    color: #201B22;
+    margin-right: 12px;
+}
+
+.wrapper .pokemon-text .search-bar .search button {
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    background: #DE369D;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 250ms ease-in;
+}
+.wrapper .pokemon-text .search-bar .search button:hover {
+    background: #4f076c;
+}
+.poke-result-info #info{
+    border-collapse: collapse;
+  width: 100%;
+  margin-top: 40px;
+  border: 0.02rem solid #201B22;
+}
+.poke-result-info #info th {
+    border: 0.02rem solid #201B22;
+    padding: 12px;
+    background: #DE369D;
+    color: #FCF7F8;
+    font-weight: 800;
+}
+.poke-result-info #info tr,td{
+    border: 0.02rem solid #201B22;
+    padding: 10px;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
